@@ -1,6 +1,6 @@
 FROM nginx:latest
 RUN apt update
-WORKDIR '/app'
+#WORKDIR '/app'
 	
 RUN rm /etc/nginx/conf.d/default.conf
 
